@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-04T12:26:25 IST" name="Default suite" finished-at="2023-09-04T12:29:28 IST" duration-ms="182897">
+    <groups>
+    </groups>
+    <test started-at="2023-09-04T12:26:25 IST" name="Default test" finished-at="2023-09-04T12:29:28 IST" duration-ms="182897">
+      <class name="SeleniumPOM.capstone.testcases.NewTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:SeleniumPOM.capstone.testcases.NewTest@1165b38]" started-at="2023-09-04T12:26:16 IST" name="beforeSuite" finished-at="2023-09-04T12:26:25 IST" duration-ms="8636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:SeleniumPOM.capstone.testcases.NewTest@1165b38]" started-at="2023-09-04T12:26:25 IST" name="beforeTest" finished-at="2023-09-04T12:26:25 IST" duration-ms="409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:SeleniumPOM.capstone.testcases.NewTest@1165b38]" started-at="2023-09-04T12:26:27 IST" name="beforeMethod" finished-at="2023-09-04T12:26:27 IST" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SeleniumPOM.capstone.testcases.NewTest@1165b38]" started-at="2023-09-04T12:26:27 IST" name="verifyLogin" data-provider="dp3" finished-at="2023-09-04T12:26:46 IST" duration-ms="19139" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.flipkart.com/account/login?ret=%2Faccount%2F%3Frd%3D0%26link%3Dhome_account]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6207712568]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:SeleniumPOM.capstone.testcases.NewTest@1165b38]" started-at="2023-09-04T12:26:46 IST" name="tearDown" finished-at="2023-09-04T12:26:46 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=NewTest.verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SeleniumPOM.capstone.testcases.NewTest@1165b38] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:SeleniumPOM.capstone.testcases.NewTest@1165b38]" started-at="2023-09-04T12:26:46 IST" name="beforeMethod" finished-at="2023-09-04T12:26:46 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchProduct(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:SeleniumPOM.capstone.testcases.NewTest@1165b38]" started-at="2023-09-04T12:26:46 IST" name="searchProduct" data-provider="dp" finished-at="2023-09-04T12:27:19 IST" duration-ms="33086" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[APPLE iPhone 14 (Midnight, 128 GB)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[67,999]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[APPLE iPhone 14 ( 128 GB Storage ) Online at Best Price On Flipkart.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Iphone14]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:SeleniumPOM.capstone.testcases.NewTest@1165b38]" started-at="2023-09-04T12:27:19 IST" name="tearDown" finished-at="2023-09-04T12:27:19 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchProduct status=SUCCESS method=NewTest.searchProduct(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:SeleniumPOM.capstone.testcases.NewTest@1165b38] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:SeleniumPOM.capstone.testcases.NewTest@1165b38]" started-at="2023-09-04T12:27:19 IST" name="beforeMethod" finished-at="2023-09-04T12:27:19 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="addToCart(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:SeleniumPOM.capstone.testcases.NewTest@1165b38]" started-at="2023-09-04T12:27:19 IST" name="addToCart" data-provider="dp1" finished-at="2023-09-04T12:27:43 IST" duration-ms="23675" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.flipkart.com/viewcart?exploreMode=true&preference=FLIPKART]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Total Amount]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:SeleniumPOM.capstone.testcases.NewTest@1165b38]" started-at="2023-09-04T12:27:43 IST" name="tearDown" finished-at="2023-09-04T12:27:43 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addToCart status=SUCCESS method=NewTest.addToCart(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:SeleniumPOM.capstone.testcases.NewTest@1165b38] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:SeleniumPOM.capstone.testcases.NewTest@1165b38]" started-at="2023-09-04T12:27:43 IST" name="beforeMethod" finished-at="2023-09-04T12:27:43 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="filterAndVerify(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:SeleniumPOM.capstone.testcases.NewTest@1165b38]" started-at="2023-09-04T12:27:43 IST" name="filterAndVerify" data-provider="dp2" finished-at="2023-09-04T12:28:17 IST" duration-ms="33951" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[APPLE iPhone 14]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[67,999]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[APPLE iPhone 14]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterAndVerify -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:SeleniumPOM.capstone.testcases.NewTest@1165b38]" started-at="2023-09-04T12:28:17 IST" name="tearDown" finished-at="2023-09-04T12:28:17 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=filterAndVerify status=SUCCESS method=NewTest.filterAndVerify(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:SeleniumPOM.capstone.testcases.NewTest@1165b38] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:SeleniumPOM.capstone.testcases.NewTest@1165b38]" started-at="2023-09-04T12:28:17 IST" name="beforeMethod" finished-at="2023-09-04T12:28:17 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="removeProductFromCart(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:SeleniumPOM.capstone.testcases.NewTest@1165b38]" started-at="2023-09-04T12:28:17 IST" name="removeProductFromCart" data-provider="dp4" finished-at="2023-09-04T12:29:27 IST" duration-ms="69497" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Missing Cart items?]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.json.JsonException">
+            <message>
+              <![CDATA[java.lang.reflect.InvocationTargetException
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [e40448f56348d4045c30adaf6c03d144, actions {actions=[org.openqa.selenium.interactions.Sequence@60bf494c]}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 116.0.1938.69, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:49293}, msedge: {msedgedriverVersion: 116.0.1938.69 (62ef76ea75c4..., userDataDir: C:\Users\HARSH\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49293/devtoo..., se:cdpVersion: 116.0.1938.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e40448f56348d4045c30adaf6c03d144]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [e40448f56348d4045c30adaf6c03d144, actions {actions=[org.openqa.selenium.interactions.Sequence@60bf494c]}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 116.0.1938.69, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:49293}, msedge: {msedgedriverVersion: 116.0.1938.69 (62ef76ea75c4..., userDataDir: C:\Users\HARSH\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49293/devtoo..., se:cdpVersion: 116.0.1938.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e40448f56348d4045c30adaf6c03d144
+at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:415)
+at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:178)
+at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:341)
+at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:200)
+at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1921)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+at org.openqa.selenium.json.JsonOutput.lambda$new$23(JsonOutput.java:200)
+at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:341)
+at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:218)
+at com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:68)
+at org.openqa.selenium.json.JsonOutput.lambda$new$25(JsonOutput.java:213)
+at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:341)
+at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:332)
+at org.openqa.selenium.json.Json.toJson(Json.java:47)
+at org.openqa.selenium.json.Json.toJson(Json.java:41)
+at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:273)
+at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:127)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:179)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:604)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:605)
+at org.openqa.selenium.interactions.Actions.perform(Actions.java:574)
+at SeleniumPOM.capstone.PageObjectModel.RemoveCart.clickremovepopup(RemoveCart.java:105)
+at SeleniumPOM.capstone.testcases.NewTest.removeProductFromCart(NewTest.java:349)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:357)
+at org.openqa.selenium.json.Json.toJson(Json.java:45)
+... 38 more
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:119)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:411)
+... 59 more
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="container"]/div/div[1]/div/div[3]/div/div[2]"}
+  (Session info: MicrosoftEdge=116.0.1938.69)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [e40448f56348d4045c30adaf6c03d144, findElement {using=xpath, value=//*[@id="container"]/div/div[1]/div/div[3]/div/div[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 116.0.1938.69, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:49293}, msedge: {msedgedriverVersion: 116.0.1938.69 (62ef76ea75c4..., userDataDir: C:\Users\HARSH\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49293/devtoo..., se:cdpVersion: 116.0.1938.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e40448f56348d4045c30adaf6c03d144
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy22.getWrappedElement(Unknown Source)
+at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:275)
+at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:224)
+at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:72)
+at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:81)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+... 61 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.json.JsonException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeProductFromCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:SeleniumPOM.capstone.testcases.NewTest@1165b38]" started-at="2023-09-04T12:29:27 IST" name="tearDown" finished-at="2023-09-04T12:29:27 IST" duration-ms="271" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=removeProductFromCart status=FAILURE method=NewTest.removeProductFromCart(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:SeleniumPOM.capstone.testcases.NewTest@1165b38] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:SeleniumPOM.capstone.testcases.NewTest@1165b38]" started-at="2023-09-04T12:29:27 IST" name="afterTest" finished-at="2023-09-04T12:29:28 IST" duration-ms="692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:SeleniumPOM.capstone.testcases.NewTest@1165b38]" started-at="2023-09-04T12:29:28 IST" name="afterSuite" finished-at="2023-09-04T12:29:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- SeleniumPOM.capstone.testcases.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
